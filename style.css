@@ -1,0 +1,28 @@
+body {
+  font-family: sans-serif;
+  background: #f0f0f0;
+  padding: 20px;
+}
+#chat-box {
+  background: white;
+  border: 1px solid #ccc;
+  padding: 10px;
+  height: 300px;
+  overflow-y: auto;
+  margin-bottom: 10px;
+}
+#chat-input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+}
+.msg {
+  margin: 8px 0;
+}
+.admin {
+  color: blue;
+}
+.user {
+  color: green;
+  text-align: right;
+}
